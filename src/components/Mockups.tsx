@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react"
-import EunoiaGlow from "../assets/EunoiaGlow.jpg"
+import EunoiaGlow from "../assets/EUNOIAGLOW.jpg"
 import EunoiaGlowCC from "../assets/EUNOIAGLOWCONTENTCALENDAR.jpg"
 import velraWears from "../assets/VELRAWEARS.jpg"
 import velraWearsCC from "../assets/VELRAWEARSCONTENTCALENDAR.png"
