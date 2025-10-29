@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react"
-import EunoiaGlow from "../assets/Eunoia Glow.jpg"
-import EunoiaGlowCC from "../assets/EUNOIA GLOW CONTENT CALENDAR.jpg"
-import velraWears from "../assets/VELRA WEARS.jpg"
-import velraWearsCC from "../assets/VELRA WEARS CONTENT CALENDAR.png"
-import LifeStyle from "../assets/LIFESTYLE BRAND.jpg"
-import LifeStyleCC from "../assets/LIFESTYLE CONTENT CALENDAR.png"
+import EunoiaGlow from "../assets/EunoiaGlow.jpg"
+import EunoiaGlowCC from "../assets/EUNOIAGLOWCONTENTCALENDAR.jpg"
+import velraWears from "../assets/VELRAWEARS.jpg"
+import velraWearsCC from "../assets/VELRAWEARSCONTENTCALENDAR.png"
+import LifeStyle from "../assets/LIFESTYLEBRAND.jpg"
+import LifeStyleCC from "../assets/LIFESTYLECONTENTCALENDAR.png"
 
 type MockupItem = {
   id: number
