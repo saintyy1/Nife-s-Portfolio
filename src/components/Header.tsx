@@ -8,6 +8,7 @@ const Header = () => {
   const navLinks = [
     { href: "#home", label: "Home", id: "home" },
     { href: "#about", label: "About", id: "about" },
+    { href: "#mockups", label: "Mockups", id: "mockups" },
     { href: "#projects", label: "Projects", id: "projects" },
     { href: "#reviews", label: "Reviews", id: "reviews" },
     { href: "#contact", label: "Contact", id: "contact" },
@@ -55,8 +56,8 @@ const Header = () => {
               key={link.href}
               href={link.href}
               className={`text-sm font-medium transition-all relative group ${activeSection === link.id
-                  ? "text-primary"
-                  : "text-foreground hover:text-primary"
+                ? "text-primary"
+                : "text-foreground hover:text-primary"
                 }`}
             >
               {link.label}
@@ -70,13 +71,13 @@ const Header = () => {
 
         {/* Theme Toggle & Mobile Menu */}
         <div className="flex items-center gap-4">
-         <a
-                         href="#contact"
-                         className="px-4 py-2 text-sm sm:px-8 sm:py-3 sm:text-base border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-colors"
-                     >
-                         <span className="hidden sm:inline">Get in Touch</span>
-                         <span className="sm:hidden inline">Contact</span>
-                     </a>
+          <a
+            href="#contact"
+            className="px-4 py-2 text-sm sm:px-8 sm:py-3 sm:text-base border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-colors"
+          >
+            <span className="hidden sm:inline">Get in Touch</span>
+            <span className="sm:hidden inline">Contact</span>
+          </a>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -95,8 +96,8 @@ const Header = () => {
                   key={link.href}
                   href={link.href}
                   className={`text-sm font-medium transition-colors flex items-center gap-2 ${activeSection === link.id
-                      ? "text-primary font-semibold"
-                      : "text-foreground hover:text-primary"
+                    ? "text-primary font-semibold"
+                    : "text-foreground hover:text-primary"
                     }`}
                   onClick={() => setIsOpen(false)}
                 >
