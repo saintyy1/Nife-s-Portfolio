@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Brand */}
             <div>
-              <h3 className="text-lg font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
+              <h3 className="text-lg font-bold bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] bg-clip-text text-transparent mb-2">
                 Nifemi
               </h3>
               <p className="text-sm text-muted-foreground">
@@ -23,22 +23,22 @@ const Footer = () => {
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="#home" className="hover:text-primary transition-colors">
+                  <a href="#home" className="hover:text-[#7AB2B2] transition-colors">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="hover:text-primary transition-colors">
+                  <a href="#about" className="hover:text-[#7AB2B2] transition-colors">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:text-primary transition-colors">
+                  <a href="#projects" className="hover:text-[#7AB2B2] transition-colors">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#reviews" className="hover:text-primary transition-colors">
+                  <a href="#reviews" className="hover:text-[#7AB2B2] transition-colors">
                     Reviews
                   </a>
                 </li>
@@ -53,7 +53,7 @@ const Footer = () => {
                   href="https://www.instagram.com/nifesocials/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg transition-all"
+                  className="p-2 bg-muted hover:bg-[#7AB2B2] hover:text-[#7AB2B2]-foreground rounded-lg transition-all"
                 >
                   <FaInstagram size={18} />
                 </a>
@@ -61,7 +61,7 @@ const Footer = () => {
                   href="mailto:nifemiakinyemi247@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg transition-all"
+                  className="p-2 bg-muted hover:bg-[#7AB2B2] hover:text-[#7AB2B2]-foreground rounded-lg transition-all"
                 >
                   <Mail size={18} />
                 </a>

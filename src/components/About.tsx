@@ -30,7 +30,7 @@ const About = () => {
                     <div className="space-y-6">
                         <div>
                             <h2 className="text-4xl font-bold mb-2">About Me</h2>
-                            <div className="w-12 h-1 bg-gradient-to-r from-primary to-accent rounded-full"></div>
+                            <div className="w-12 h-1 bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] rounded-full"></div>
                         </div>
 
                         <p className="text-lg text-muted-foreground leading-relaxed">
@@ -44,7 +44,7 @@ const About = () => {
                             <h3 className="text-xl font-semibold">Experience Highlights</h3>
                             {highlights.map((highlight, index) => (
                                 <div key={index} className="flex gap-3 items-start">
-                                    <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={20} />
+                                    <CheckCircle2 className="text-[#7AB2B2] flex-shrink-0 mt-1" size={20} />
                                     <p className="text-muted-foreground">{highlight}</p>
                                 </div>
                             ))}
@@ -53,7 +53,7 @@ const About = () => {
                         <div className="pt-4">
                             <a
                                 href="#contact"
-                                className="inline-block px-6 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all"
+                                className="inline-block px-6 py-2 bg-[#7AB2B2] text-[#7AB2B2]-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-[#7AB2B2]/50 transition-all"
                             >
                                 Let's Collaborate
                             </a>

@@ -57,7 +57,7 @@ const contact = () => {
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-2">Let's Connect</h2>
-                    <div className="w-12 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-4"></div>
+                    <div className="w-12 h-1 bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] rounded-full mx-auto mb-4"></div>
                     <p className="text-lg text-muted-foreground">Ready to grow your brand? Get in touch!</p>
                 </div>
 
@@ -75,7 +75,7 @@ const contact = () => {
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-[#7AB2B2] transition-all"
                                 placeholder="Your name"
                             />
                         </div>
@@ -91,7 +91,7 @@ const contact = () => {
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-[#7AB2B2] transition-all"
                                 placeholder="your@email.com"
                             />
                         </div>
@@ -107,7 +107,7 @@ const contact = () => {
                                 onChange={handleChange}
                                 required
                                 rows={5}
-                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-primary transition-all resize-none"
+                                className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:outline-none focus:ring-2 focus:ring-[#7AB2B2] transition-all resize-none"
                                 placeholder="Tell me about your project..."
                             />
                         </div>
@@ -115,7 +115,7 @@ const contact = () => {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all flex items-center justify-center gap-2 group disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="w-full px-6 py-3 bg-[#7AB2B2] text-[#7AB2B2]-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-[#7AB2B2]/50 transition-all flex items-center justify-center gap-2 group disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                             {isSubmitting ? "Sending..." : "Send Message"}
                             <Send size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -148,14 +148,14 @@ const contact = () => {
 
                         {/* Email */}
                         <div className="flex gap-4 items-start">
-                            <div className="p-3 bg-primary/10 rounded-lg">
-                                <Mail className="text-primary" size={24} />
+                            <div className="p-3 bg-[#7AB2B2]/10 rounded-lg">
+                                <Mail className="text-[#7AB2B2]" size={24} />
                             </div>
                             <div>
                                 <p className="font-semibold">Email</p>
                                 <a
                                     href="mailto:nifemiakinyemi247@gmail.com"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
+                                    className="text-muted-foreground hover:text-[#7AB2B2] transition-colors"
                                 >
                                     nifemiakinyemi247@gmail.com
                                 </a>
@@ -180,7 +180,7 @@ const contact = () => {
                                     href="https://www.instagram.com/nifesocials/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-3 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg transition-all"
+                                    className="p-3 bg-muted hover:bg-[#7AB2B2] hover:text-[#7AB2B2]-foreground rounded-lg transition-all"
                                     aria-label="Instagram"
                                 >
                                     <FaInstagram size={20} />
@@ -189,7 +189,7 @@ const contact = () => {
                                     href="mailto:nifemiakinyemi247@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-3 bg-muted hover:bg-primary hover:text-primary-foreground rounded-lg transition-all"
+                                    className="p-3 bg-muted hover:bg-[#7AB2B2] hover:text-[#7AB2B2]-foreground rounded-lg transition-all"
                                 >
                                     <Mail size={20} />
                                 </a>

@@ -44,7 +44,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <a
           href="#home"
-          className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+          className="text-2xl font-bold bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] bg-clip-text text-transparent"
         >
           Nifemi
         </a>
@@ -56,13 +56,13 @@ const Header = () => {
               key={link.href}
               href={link.href}
               className={`text-sm font-medium transition-all relative group ${activeSection === link.id
-                ? "text-primary"
-                : "text-foreground hover:text-primary"
+                ? "text-[#7AB2B2] font-semibold" 
+                : "text-gray hover:text-[#7AB2B2]"
                 }`}
             >
               {link.label}
               <span
-                className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${activeSection === link.id ? "w-full" : "w-0 group-hover:w-full"
+                className={`absolute -bottom-1 left-0 h-0.5 bg-[#7AB2B2] transition-all duration-300 ${activeSection === link.id ? "w-full" : "w-0 group-hover:w-full"
                   }`}
               ></span>
             </a>
@@ -73,7 +73,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <a
             href="#contact"
-            className="px-4 py-2 text-sm sm:px-8 sm:py-3 sm:text-base border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-colors"
+            className="px-4 py-2 text-sm sm:px-8 sm:py-3 sm:text-base border-2 border-[#7AB2B2] text-[#7AB2B2] rounded-lg font-semibold hover:bg-[#7AB2B2]/10 transition-colors"
           >
             <span className="hidden sm:inline">Get in Touch</span>
             <span className="sm:hidden inline">Contact</span>
@@ -96,13 +96,13 @@ const Header = () => {
                   key={link.href}
                   href={link.href}
                   className={`text-sm font-medium transition-colors flex items-center gap-2 ${activeSection === link.id
-                    ? "text-primary font-semibold"
-                    : "text-foreground hover:text-primary"
+                    ? "text-[#7AB2B2] font-semibold"
+                    : "text-foreground hover:text-[#7AB2B2]"
                     }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {activeSection === link.id && (
-                    <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#7AB2B2]"></span>
                   )}
                   {link.label}
                 </a>

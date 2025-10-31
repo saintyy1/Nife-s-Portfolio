@@ -75,7 +75,7 @@ const Mockups = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-2">Mockups</h2>
-          <div className="w-12 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto"></div>
+          <div className="w-12 h-1 bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] rounded-full mx-auto"></div>
           <p className="text-lg text-muted-foreground mt-4">
             Design previews and concept visuals
           </p>

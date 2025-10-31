@@ -26,7 +26,7 @@ const Hero = () => {
                 <div className="space-y-4">
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance text-white">
                         Helping Brands Grow,{" "}
-                        <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                        <span className="bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] bg-clip-text text-transparent">
                             One Post at a Time
                         </span>
                     </h1>
@@ -39,14 +39,14 @@ const Hero = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
                     <button
                         onClick={scrollToProjects}
-                        className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 flex items-center justify-center gap-2 group"
+                        className="px-8 py-3 bg-[#7AB2B2] text-[#7AB2B2]-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-[#7AB2B2]/50 transition-all duration-300 flex items-center justify-center gap-2 group"
                     >
                         View My Work
                         <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                     <a
                         href="#contact"
-                        className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-colors"
+                        className="px-8 py-3 border-2 border-[#7AB2B2] text-[#7AB2B2] rounded-lg font-semibold hover:bg-[#7AB2B2]/10 transition-colors"
                     >
                         Get in Touch
                     </a>

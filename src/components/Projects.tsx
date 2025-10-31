@@ -8,21 +8,21 @@ const Projects = () => {
         {
             id: 1,
             title: "Viral Reel Campaign",
-            description: "Created engaging reel content that reached 109K+ views with 99% non-follower reach.",
+            description: "Created engaging reel content that reached 187K+ views with 99% non-follower reach.",
             image: reel3,
             stats: [
-                { label: "Views", value: "109K", icon: Eye },
-                { label: "Followers", value: "1.0%", icon: Users },
-                { label: "Non-followers", value: "99.0%", icon: Heart },
+                { label: "Views", value: "187K", icon: Eye },
+                { label: "Followers", value: "0.7%", icon: Users },
+                { label: "Non-followers", value: "99.3%", icon: Heart },
             ],
         },
         {
             id: 2,
             title: "Brand Awareness Reel",
-            description: "Strategic content that generated 51K views with strong non-follower engagement.",
+            description: "Strategic content that generated 52K+ views with strong non-follower engagement.",
             image: reel2,
             stats: [
-                { label: "Views", value: "51K", icon: Eye },
+                { label: "Views", value: "52K", icon: Eye },
                 { label: "Followers", value: "2.3%", icon: Users },
                 { label: "Non-followers", value: "97.7%", icon: Heart },
             ],
@@ -30,10 +30,10 @@ const Projects = () => {
         {
             id: 3,
             title: "Growth Focused Content",
-            description: "Engaging reel that achieved 16K+ views with excellent organic reach.",
+            description: "Engaging reel that achieved 18K+ views with excellent organic reach.",
             image: reel1,
             stats: [
-                { label: "Views", value: "16K", icon: Eye },
+                { label: "Views", value: "18K", icon: Eye },
                 { label: "Followers", value: "0.9%", icon: Users },
                 { label: "Non-followers", value: "99.1%", icon: Heart },
             ],
@@ -45,7 +45,7 @@ const Projects = () => {
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-2">Past Projects</h2>
-                    <div className="w-12 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-4"></div>
+                    <div className="w-12 h-1 bg-gradient-to-r from-[#EAE0D5] via-[#CDE8E5] to-[#7AB2B2] rounded-full mx-auto mb-4"></div>
                     <p className="text-lg text-muted-foreground">Showcasing successful campaigns and brand growth stories</p>
                 </div>
 
@@ -76,7 +76,7 @@ const Projects = () => {
                                         const Icon = stat.icon
                                         return (
                                             <div key={index} className="text-center">
-                                                <Icon className="text-primary mx-auto mb-1" size={18} />
+                                                <Icon className="text-[#7AB2B2] mx-auto mb-1" size={18} />
                                                 <p className="font-bold text-sm">{stat.value}</p>
                                                 <p className="text-xs text-muted-foreground">{stat.label}</p>
                                             </div>
