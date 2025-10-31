@@ -8,7 +8,6 @@ const Projects = () => {
         {
             id: 1,
             title: "Viral Reel Campaign",
-            description: "Created engaging reel content that reached 187K+ views with 99% non-follower reach.",
             image: reel3,
             stats: [
                 { label: "Views", value: "187K", icon: Eye },
@@ -19,7 +18,6 @@ const Projects = () => {
         {
             id: 2,
             title: "Brand Awareness Reel",
-            description: "Strategic content that generated 52K+ views with strong non-follower engagement.",
             image: reel2,
             stats: [
                 { label: "Views", value: "52K", icon: Eye },
@@ -30,7 +28,6 @@ const Projects = () => {
         {
             id: 3,
             title: "Growth Focused Content",
-            description: "Engaging reel that achieved 18K+ views with excellent organic reach.",
             image: reel1,
             stats: [
                 { label: "Views", value: "18K", icon: Eye },
@@ -67,8 +64,7 @@ const Projects = () => {
 
                             {/* Project Content */}
                             <div className="p-6 space-y-4">
-                                <h3 className="text-xl font-bold">{project.title}</h3>
-                                <p className="text-muted-foreground text-sm leading-relaxed">{project.description}</p>
+                                <h3 className="text-lg font-bold">{project.title}</h3>
 
                                 {/* Stats */}
                                 <div className="grid grid-cols-3 gap-3 pt-4 border-t border-border">
@@ -78,7 +74,7 @@ const Projects = () => {
                                             <div key={index} className="text-center">
                                                 <Icon className="text-[#7AB2B2] mx-auto mb-1" size={18} />
                                                 <p className="font-bold text-sm">{stat.value}</p>
-                                                <p className="text-xs text-muted-foreground">{stat.label}</p>
+                                                <p className="text-xs hidden lg:inline text-muted-foreground">{stat.label}</p>
                                             </div>
                                         )
                                     })}
