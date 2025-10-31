@@ -1,5 +1,6 @@
 import { Star } from "lucide-react"
 import NovlNest from "../assets/NovlNest.jpg"
+import Dhunnie from "../assets/Dhunnie.jpg"
 
 const reviews = () => {
     const reviews = [
@@ -8,15 +9,15 @@ const reviews = () => {
             name: "Olufowobi Tolu",
             role: "Founder, NovlNest",
             image: NovlNest,
-            text: "Nifemi transformed NovlNest’s online presence with her creativity and strategic storytelling, making the brand feel authentic and engaging to both writers and readers. Her work boosted engagement, strengthened community trust, and gave the platform a distinct, relatable voice.",
+            text: "Nifemi transformed NovlNest’s online presence with her creativity and strategic storytelling, making the brand feel authentic and engaging to both writers and readers.",
             rating: 5,
         },
         {
             id: 2,
-            name: "Michael Chen",
-            role: "CEO, Tech Innovations",
-            image: "/professional-man-portrait.png",
-            text: "Exceptional strategy and execution. They understood our brand voice immediately and created content that resonated with our target audience.",
+            name: "Dhunnie Wardrobe",
+            role: "Fashion & Lifestyle Brand",
+            image: Dhunnie,
+            text: "Nifemi completely transformed how our brand shows up online. Her consistency and eye for detail have helped us attract more customers effortlessly.",
             rating: 5,
         }
     ]
