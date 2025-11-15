@@ -1,6 +1,7 @@
 import { Star } from "lucide-react"
 import NovlNest from "../assets/NovlNest.jpg"
 import Dhunnie from "../assets/Dhunnie.jpg"
+import Synden from "../assets/synden.jpg"
 
 const reviews = () => {
     const reviews = [
@@ -19,6 +20,14 @@ const reviews = () => {
             image: Dhunnie,
             text: "Nifemi completely transformed how our brand shows up online. Her consistency and eye for detail have helped us attract more customers effortlessly.",
             rating: 5,
+        },
+        {
+            id: 3,
+            name: "Synden Collections",
+            role: "Fashion Brand",
+            image: Synden,
+            text: "Working with Nife was such a breeze! Professional, creative, and always delivered beyond expectations. Highly recommend!",
+            rating: 5,
         }
     ]
 
@@ -31,7 +40,7 @@ const reviews = () => {
                     <p className="text-lg text-muted-foreground">What brands say about working together</p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {reviews.map((review) => (
                         <div
                             key={review.id}

@@ -10,9 +10,9 @@ const Projects = () => {
             title: "Viral Reel Campaign",
             image: reel3,
             stats: [
-                { label: "Views", value: "187K", icon: Eye },
-                { label: "Followers", value: "0.7%", icon: Users },
-                { label: "Non-followers", value: "99.3%", icon: Heart },
+                { label: "Views", value: "334K", icon: Eye },
+                { label: "Followers", value: "0.5%", icon: Users },
+                { label: "Non-followers", value: "99.5%", icon: Heart },
             ],
         },
         {

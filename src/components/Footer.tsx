@@ -33,13 +33,13 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:text-[#7AB2B2] transition-colors">
-                    Projects
+                  <a href="#mockups" className="hover:text-[#7AB2B2] transition-colors">
+                    Mockups
                   </a>
                 </li>
                 <li>
-                  <a href="#reviews" className="hover:text-[#7AB2B2] transition-colors">
-                    Reviews
+                  <a href="#projects" className="hover:text-[#7AB2B2] transition-colors">
+                    Projects
                   </a>
                 </li>
               </ul>
